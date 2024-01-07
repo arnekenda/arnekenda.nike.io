@@ -1,0 +1,81 @@
+<!--https://www.uplabs.com/posts/nike-shoes-e-commerce-web-template-shop-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike </title>
+    <link rel="shortcut icon" href="nike.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="stran">
+        <div class="navbar">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 449 203">
+                    <path id="nikesvg" fill="black" stroke="black" stroke-width="1" d="M 138.25,109.00C 172.75,100.50 403.00,37.00 412.50,36.50
+                        425.94,34.56 110.67,174.15 92.25,166.00
+                        32.00,168.00 27.50,98.00 98.75,35.50
+                        92.25,53.00 61.00,114.25 138.25,109.00 Z
+                        M 430.50,31.00" />
+                </svg>
+            </div>
+            <!--dodaj da bo vec copatov se vrtelo(pikice) z js-->
+            <div class="btwni">
+                <button id="">Home</button>
+                <button id="">Products</button>
+                <button id="">Contact</button>
+                <button id="">Faq</button>
+                <button id="">Login</button>
+            </div> 
+        </div>
+        
+        <div class="main">
+            <div class="levi">
+                <div class="textveliki">
+                    <h1>Nike Shoes<br>Just Do it.</h1>
+                </div>
+                <div class="textmali">
+                   <p id="textmali">take on anything spring throws your way in these functional styles</p> 
+                </div>
+                <button id="shop">Shop now</button>
+            </div>
+            <div class="desni">             
+                <div class="blejzi" style="position: relative;">
+                    <img src="slika/brezlogonike.png" id="slikab" style="position: absolute; top: 0; left: 0;"> <!--dodaj logotip-->
+                    <canvas id="canvas" width="783" height="460" style="position: absolute; top: 0; left: 0;"></canvas>                  
+                  </div> 
+                  
+                </div>                     
+            </div>           
+        </div>
+    </div>
+</body>
+<script>
+    const c = document.getElementById("canvas");
+    const ctx = c.getContext("2d");
+
+    const img = document.getElementById("slikab");
+
+    // Postavi canvas nad sliko
+    c.style.zIndex = 1;
+    img.style.zIndex = 0;
+
+    ctx.lineWidth = 1;
+
+    ctx.beginPath();
+    ctx.moveTo(339, 321);
+    ctx.bezierCurveTo(296, 340, 248, 413, 360, 395);
+    ctx.bezierCurveTo(369, 391, 450, 384, 535, 329);
+    ctx.bezierCurveTo(534, 322, 533, 321, 531, 314);
+    ctx.bezierCurveTo(499, 334, 416, 365, 356, 360);
+    ctx.bezierCurveTo(320, 352, 340, 331, 339, 321);
+    ctx.fillStyle = "rgba(55,54,55,255)";
+    ctx.stroke();
+    ctx.fill();
+</script>
+</html>
