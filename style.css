@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: beige;
+    background-image: url("slike/ozadje2.jpg");
     
 }
 
@@ -17,7 +17,7 @@ body{
     height:700px;
     
     background-color: aqua;
-    border: 2px solid black;
+    border: 4px solid black;
     
 }
 .navbar{
@@ -154,7 +154,7 @@ button:hover{
 }
 
 .puscice{
-    height:60px;
+    height:50px;
     border: 2px solid rgb(58, 58, 58);
     border-radius:10px;
     background-color:  #ff3668;
