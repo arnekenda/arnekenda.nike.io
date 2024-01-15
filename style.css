@@ -16,13 +16,13 @@ body{
     margin: 170px 100px;
     height:700px;
     
-    background-color: aqua;
-    border: 4px solid black;
+    background-color: #ffbea2;
+    border: 2px solid black;
     
 }
 .navbar{
     height:70px;
-    background-color: #fa7304;
+    background-color: #cd6b91;
     display:flex;
     border-bottom: black 1px solid;
     align-items: center;
@@ -31,47 +31,18 @@ a{
     text-decoration: none;
     color:#000;
 }
-a.author{
-    color:#fff;
-}
+
 #canvas{
     margin-top:20px;
+    margin-left:5px;
 }
 .buttons{
     display:flex;
     z-index: 1000;
-    
 }
-.home{
-    background-color: #04aa3b;
-}
-.home:hover{
-    background-color: rgb(7, 255, 90);
-    color:#fff;
-}
-.shop{
-    background-color: #c05874;
-}
-.shop:hover{
-    background-color: #c52a53;
-    color:#fff;
-}
-.about-us{
-    background-color: #049ec9;
-}
-.about-us:hover{
-    background-color: #016480;
-    color:#fff;
-}
-.author{
-    background-color: #040f0a;
-    color:#fff;
-}
-.author:hover{
-    color: #040f0a;
-    background-color:#fff;
-}
+
 button{
+    background-color: #cd6b91;
     height:70px;
     width:100px;
     border:none;
@@ -84,10 +55,10 @@ button{
 }
 
 button:hover{
-    background-color:rgb(216, 216, 216);
+    background-color:#b15c7d;
     cursor:pointer;
 }
-.author{
+button.author{
     border-right:1px solid black;
 }
 .main{
@@ -100,13 +71,16 @@ button:hover{
     margin-left:10px;
     float:left;
 }
- 
+.blazer8bit{
+    width:500px;
+    height: 151.25px;
+}
 .svg2{
     margin-top: 40px;
     margin-left: 50%;
 }
 .tekst{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left:15%;
 }
 
@@ -118,9 +92,10 @@ button:hover{
     border-radius:6px;
     background-color:rgba(255,195,0,255);
     font-size:45px;
+    background-color: #cd6b91;
 }
 #shopnow:hover{
-    background-color: rgb(251,114,4);
+    background-color:#b15c7d;
     color:#FFF;
     cursor:pointer;
 }
@@ -136,10 +111,13 @@ button:hover{
     border:2px solid black;
     border-radius: 10px;
     margin-top:40px;
-    background-color: #ff3668;
+    background-color: #cd6b91;
+    
 	
 }
-
+img{
+    margin:0 auto;
+}
 
 .desni .arrow_prev {
     position:absolute;
@@ -157,10 +135,10 @@ button:hover{
     height:50px;
     border: 2px solid rgb(58, 58, 58);
     border-radius:10px;
-    background-color:  #ff3668;
+    background-color: #cd6b91;
 }
 .puscice:hover{
     cursor:pointer;
-    background-color:  #cc00ff;
+    background-color:#b15c7d;
     
 }
