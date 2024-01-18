@@ -27,8 +27,8 @@
         <div class="main">
             <div class="levi">
                 <div class="svg2">
-                   <img src="slike/balez8bit.jpg" class="blazer8bit">
-                    <!--  
+                    <!--<img src="slike/balez8bit.jpg" class="blazer8bit">
+                     
                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     width="300.000000pt" height="91.000000pt" viewBox="0 0 300.000000 91.000000"
                     preserveAspectRatio="xMidYMid meet">
@@ -81,6 +81,7 @@
                    
                 </div> 
                 <div class="tekst">
+                    <h1 style="font-size:100px;" class="naslov">BLAZER</h1>
                     <h1 style="font-size:50px;">FROM B-BALL COURTS<BR>TO THE STREETS.</h1>
                         <br>
                         <p style="font-size:25px;">shop your favourite models <br>
@@ -114,10 +115,13 @@
                 
             </div>
         </div>
+        
+    <button id="credits" onclick=credits()>Credits</button>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript">
         
         $('.carousel').slick({
@@ -142,7 +146,19 @@
         ctx.fillStyle = "rgba(55,54,55,255)";
         ctx.stroke();
         ctx.fill();
-    
+
+        document.getElementsById('credits').addEventListener('click', credits());
+        function credits(){
+            Swal.fire({
+                title: "Site author",
+                text: "Arne Kenda, 4.RB ERŠ Nova Gorica",
+                confirmButtonColor: "#cd6b91", 
+                
+            });
+        };
+            
+      
+        
             
        
     </script>
