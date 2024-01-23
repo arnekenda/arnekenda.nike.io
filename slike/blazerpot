@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" id="svgblazer"
+     width="6.94444in" height="6.94444in"
+     viewBox="0 0 500 500">
+  <path id="Neimenovano"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 282.11,266.38
+           C 247.11,272.71 229.70,326.48 272.11,323.38
+             275.94,323.95 308.52,318.29 336.18,312.45
+             358.82,308.64 441.03,277.08 440.11,275.71
+             440.11,275.71 436.27,262.36 437.44,265.71
+             441.87,268.18 324.27,295.95 308.44,294.71
+             301.33,295.73 268.22,286.91 281.78,266.71" />
+</svg>
